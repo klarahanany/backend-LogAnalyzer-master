@@ -1,0 +1,11 @@
+[Fri Jul 28 12:49:44.652911 2023] [ssl:warn] [pid 1244:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 28 12:49:44.771621 2023] [ssl:warn] [pid 1244:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 28 12:49:45.237730 2023] [mpm_winnt:notice] [pid 1244:tid 452] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Fri Jul 28 12:49:45.237730 2023] [mpm_winnt:notice] [pid 1244:tid 452] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Fri Jul 28 12:49:45.237730 2023] [core:notice] [pid 1244:tid 452] AH00094: Command line: 'd:\\appache\\apache\\bin\\httpd.exe -d D:/appache/apache'
+[Fri Jul 28 12:49:45.244718 2023] [mpm_winnt:notice] [pid 1244:tid 452] AH00418: Parent: Created child process 3720
+[Fri Jul 28 12:49:45.900902 2023] [ssl:warn] [pid 3720:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 28 12:49:46.010741 2023] [ssl:warn] [pid 3720:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 28 12:49:46.072576 2023] [mpm_winnt:notice] [pid 3720:tid 444] AH00354: Child: Starting 150 worker threads.
+[Sat Jul 29 00:56:22.324435 2023] [php:error] [pid 3720:tid 1924] [client ::1:60542] script 'D:/appache/htdocs/RestroMinder/HTML/phpDatabaseconnect.php' not found or unable to stat, referer: http://localhost//RestroMinder/HTML/InventoryMangment.html
+[Sat Jul 29 00:58:18.248705 2023] [php:error] [pid 3720:tid 1936] [client ::1:60611] script 'D:/appache/htdocs/RestroMinder/HTML/phpDatabaseconnect.php' not found or unable to stat, referer: http://localhost//RestroMinder/HTML/InventoryMangment.html
